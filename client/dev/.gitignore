@@ -1,4 +1,4 @@
 *.js
 *.js.map
-
+*.css
 !config.js

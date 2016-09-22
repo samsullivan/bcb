@@ -24,5 +24,6 @@ export const tasks = {
 
   CLIENT_WATCH: 'client.watch',
 
-  CLIENT_BUILD_TS: 'client.build_ts'
+  CLIENT_BUILD_TS: 'client.build_ts',
+  CLIENT_BUILD_SASS: 'client.build_sass'
 }

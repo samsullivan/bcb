@@ -3,7 +3,8 @@ import runSequence from 'run-sequence';
 import {tasks} from './const';
 
 gulp.task(tasks.CLIENT_BUILD_DEV, [
-  tasks.CLIENT_BUILD_TS
+  tasks.CLIENT_BUILD_TS,
+  tasks.CLIENT_BUILD_SASS
 ]);
 
 gulp.task(tasks.CLIENT_BUILD_DIST, () => {
